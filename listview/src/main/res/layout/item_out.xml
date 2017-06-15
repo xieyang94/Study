@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2017. 用于测试配置版权信息
+  ~ 谢洋 版权所有
+  ~ XeYang. All Rights Reserved.
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingLeft="30dip"
+    android:paddingRight="10dip">
+
+    <TextView
+        android:id="@+id/text_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/image_out"
+        android:background="@drawable/out"
+        android:gravity="center_vertical"
+        android:padding="10dip"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/image_out"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:src="@mipmap/ic_image_out" />
+
+</RelativeLayout>

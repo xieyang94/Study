@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/2048/2048.iml" filepath="$PROJECT_DIR$/2048/2048.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Study.iml" filepath="$PROJECT_DIR$/Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/as/as.iml" filepath="$PROJECT_DIR$/as/as.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/cloud.iml" filepath="$PROJECT_DIR$/cloud/cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/colormatrix/colormatrix.iml" filepath="$PROJECT_DIR$/colormatrix/colormatrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/expandablelistview/expandablelistview.iml" filepath="$PROJECT_DIR$/expandablelistview/expandablelistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui/ui.iml" filepath="$PROJECT_DIR$/ui/ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui2/ui2.iml" filepath="$PROJECT_DIR$/ui2/ui2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui3/ui3.iml" filepath="$PROJECT_DIR$/ui3/ui3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui4/ui4.iml" filepath="$PROJECT_DIR$/ui4/ui4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui5/ui5.iml" filepath="$PROJECT_DIR$/ui5/ui5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui6/ui6.iml" filepath="$PROJECT_DIR$/ui6/ui6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui8/ui8.iml" filepath="$PROJECT_DIR$/ui8/ui8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view/view.iml" filepath="$PROJECT_DIR$/view/view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view2/view2.iml" filepath="$PROJECT_DIR$/view2/view2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view3/view3.iml" filepath="$PROJECT_DIR$/view3/view3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view4/view4.iml" filepath="$PROJECT_DIR$/view4/view4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view5/view5.iml" filepath="$PROJECT_DIR$/view5/view5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view6/view6.iml" filepath="$PROJECT_DIR$/view6/view6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view7/view7.iml" filepath="$PROJECT_DIR$/view7/view7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wavekit/wavekit.iml" filepath="$PROJECT_DIR$/wavekit/wavekit.iml" />
+    </modules>
+  </component>
+</project>

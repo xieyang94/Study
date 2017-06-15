@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:onClick="explode"
+        android:text="explode" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:onClick="slide"
+        android:text="slide" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:onClick="fade"
+        android:text="fade" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:onClick="share"
+        android:text="share"
+        android:transitionName="share" />
+
+    <Button
+        android:id="@+id/fab_button"
+        android:layout_width="56dip"
+        android:layout_height="56dip"
+        android:background="@android:drawable/ic_dialog_info"
+        android:elevation="5dip"
+        android:transitionName="fab" />
+
+
+</LinearLayout>

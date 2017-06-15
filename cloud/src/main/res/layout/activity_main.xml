@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:onClick="onClick1"
+        android:text="添加" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:onClick="onClick2"
+        android:text="查看" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:onClick="onClick3"
+        android:text="修改" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:onClick="onClick4"
+        android:text="删除" />
+
+    <RelativeLayout
+        android:id="@+id/mLyout"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="true"
+        >
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2017. 用于测试配置版权信息
+  ~ 谢洋 版权所有
+  ~ XeYang. All Rights Reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.yuan.waveview.WaveView
+        android:id="@+id/waveview"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        app:backgroudColor="@color/white"
+        app:progressColor="@color/black"
+        />
+
+</LinearLayout>

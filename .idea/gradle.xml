@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/2048" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/as" />
+            <option value="$PROJECT_DIR$/cloud" />
+            <option value="$PROJECT_DIR$/colormatrix" />
+            <option value="$PROJECT_DIR$/expandablelistview" />
+            <option value="$PROJECT_DIR$/listview" />
+            <option value="$PROJECT_DIR$/ui" />
+            <option value="$PROJECT_DIR$/ui2" />
+            <option value="$PROJECT_DIR$/ui3" />
+            <option value="$PROJECT_DIR$/ui4" />
+            <option value="$PROJECT_DIR$/ui5" />
+            <option value="$PROJECT_DIR$/ui6" />
+            <option value="$PROJECT_DIR$/ui8" />
+            <option value="$PROJECT_DIR$/view" />
+            <option value="$PROJECT_DIR$/view2" />
+            <option value="$PROJECT_DIR$/view3" />
+            <option value="$PROJECT_DIR$/view4" />
+            <option value="$PROJECT_DIR$/view5" />
+            <option value="$PROJECT_DIR$/view6" />
+            <option value="$PROJECT_DIR$/view7" />
+            <option value="$PROJECT_DIR$/wavekit" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

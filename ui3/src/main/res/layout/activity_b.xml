@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/holder_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dip"
+        android:background="#2196F3"
+        android:transitionName="share" />
+
+    <Button
+        android:id="@+id/fab_button"
+        android:layout_width="56dip"
+        android:layout_height="56dip"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/holder_view"
+        android:layout_marginEnd="20dip"
+        android:layout_marginTop="-26dip"
+        android:background="@drawable/ripple_round"
+        android:elevation="5dip"
+        android:transitionName="fab" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/holder_view"
+        android:layout_marginTop="10dip">
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_marginTop="10dip"
+            android:layout_alignParentStart="true"/>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_below="@id/button4"
+            android:layout_marginTop="10dip" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

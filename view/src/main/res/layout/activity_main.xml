@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--精确模式-->
+    <xy.com.view.View1
+        android:layout_width="500dip"
+        android:layout_height="300dip"
+        android:background="#212121" />
+
+    <!--间隔-->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dip" />
+
+    <!--非精确模式-->
+    <xy.com.view.View1
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#dd4343" />
+
+    <!--扩展AppCompatTextView-->
+    <xy.com.view.TextView2
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:textSize="30sp" />
+
+    <!--扩展渲染器的AppCompatTextView-->
+    <xy.com.view.TextView3
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Android TextView"
+        android:textSize="30sp" />
+
+</LinearLayout>

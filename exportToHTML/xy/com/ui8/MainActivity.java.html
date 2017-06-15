@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>MainActivity.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #999999; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { color: rgb(0,0,0); }
+.s2 { color: rgb(0,0,255); }
+.s3 { color: rgb(128,128,128); font-style: italic; }
+.s4 { color: rgb(0,128,0); font-weight: bold; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+MainActivity.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<span class="s0">package </span><span class="s1">xy.com.ui8; 
+ 
+</span><span class="s0">import </span><span class="s1">android.os.Bundle; 
+</span><span class="s0">import </span><span class="s1">android.support.v7.app.AppCompatActivity; 
+</span><span class="s0">import </span><span class="s1">android.support.v7.widget.SearchView; 
+</span><span class="s0">import </span><span class="s1">android.util.Log; 
+</span><span class="s0">import </span><span class="s1">android.widget.NumberPicker; 
+</span><span class="s0">import </span><span class="s1">android.widget.TextView; 
+ 
+</span><span class="s0">public class </span><span class="s1">MainActivity </span><span class="s0">extends </span><span class="s1">AppCompatActivity { 
+ 
+    </span><span class="s0">private </span><span class="s1">NumberPicker numberPicker; 
+    </span><span class="s0">private </span><span class="s1">TextView textView; 
+ 
+    @Override 
+    </span><span class="s0">protected void </span><span class="s1">onCreate(Bundle savedInstanceState) { 
+        </span><span class="s0">super</span><span class="s1">.onCreate(savedInstanceState); 
+        setContentView(R.layout.activity_main); 
+        SearchView searchView = (SearchView) findViewById(R.id.searchView); 
+        textView = (TextView) findViewById(R.id.textView); 
+        textView.setText(searchView.getQuery()); 
+        searchView.setOnQueryTextListener(</span><span class="s0">new </span><span class="s1">SearchView.OnQueryTextListener() { 
+            @Override 
+            </span><span class="s0">public boolean </span><span class="s1">onQueryTextSubmit(String query) { 
+                </span><span class="s0">return false</span><span class="s1">; 
+            } 
+ 
+            @Override 
+            </span><span class="s0">public boolean </span><span class="s1">onQueryTextChange(String newText) { 
+                textView.setText(newText); 
+                </span><span class="s0">return false</span><span class="s1">; 
+            } 
+        }); 
+        numberPicker = (NumberPicker) findViewById(R.id.numberPicker); 
+        numberPicker.setFormatter(formatter); 
+        numberPicker.setOnValueChangedListener(valueChangeListener); 
+        numberPicker.setOnScrollListener(scrollListener); 
+        numberPicker.setMaxValue(</span><span class="s2">23</span><span class="s1">); 
+        numberPicker.setMinValue(</span><span class="s2">0</span><span class="s1">); 
+        numberPicker.setValue(</span><span class="s2">10</span><span class="s1">); 
+ 
+    } 
+ 
+    </span><span class="s3">/** 
+     * 格式化参数 
+     */</span><span class="s1"> 
+    </span><span class="s0">private </span><span class="s1">NumberPicker.Formatter formatter = </span><span class="s0">new </span><span class="s1">NumberPicker.Formatter() { 
+        @Override 
+        </span><span class="s0">public </span><span class="s1">String format(</span><span class="s0">int </span><span class="s1">value) { 
+            String tmpStr = String.valueOf(value); 
+            </span><span class="s0">if </span><span class="s1">(value &lt; </span><span class="s2">10</span><span class="s1">) { 
+                tmpStr = </span><span class="s4">&quot;0&quot; </span><span class="s1">+ tmpStr; 
+            } 
+            </span><span class="s0">return </span><span class="s1">tmpStr; 
+        } 
+    }; 
+ 
+    </span><span class="s3">/** 
+     * 数字改变监听 
+     */</span><span class="s1"> 
+    </span><span class="s0">private </span><span class="s1">NumberPicker.OnValueChangeListener valueChangeListener = </span><span class="s0">new </span><span class="s1">NumberPicker.OnValueChangeListener() { 
+        @Override 
+        </span><span class="s0">public void </span><span class="s1">onValueChange(NumberPicker picker, </span><span class="s0">int </span><span class="s1">oldVal, </span><span class="s0">int </span><span class="s1">newVal) { 
+            Log.d(</span><span class="s4">&quot;TAG&quot;</span><span class="s1">, </span><span class="s4">&quot;&quot; </span><span class="s1">+ picker.getValue()); 
+            Log.d(</span><span class="s4">&quot;TAG&quot;</span><span class="s1">, </span><span class="s4">&quot;最终:&quot; </span><span class="s1">+ newVal); 
+            textView.setText(</span><span class="s4">&quot;&quot; </span><span class="s1">+ newVal); 
+        } 
+    }; 
+ 
+    </span><span class="s3">/** 
+     * 滑动监听 
+     */</span><span class="s1"> 
+    </span><span class="s0">private </span><span class="s1">NumberPicker.OnScrollListener scrollListener = </span><span class="s0">new </span><span class="s1">NumberPicker.OnScrollListener() { 
+        @Override 
+        </span><span class="s0">public void </span><span class="s1">onScrollStateChange(NumberPicker view, </span><span class="s0">int </span><span class="s1">scrollState) { 
+ 
+        } 
+    }; 
+ 
+} 
+</span></pre>
+</body>
+</html>

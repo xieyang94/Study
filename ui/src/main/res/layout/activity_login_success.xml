@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#556b2f"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="bottom|center"
+        android:text="账号："
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dip" />
+
+    <TextView
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="top|center"
+        android:text="密码："
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+</LinearLayout>
