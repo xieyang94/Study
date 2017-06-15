@@ -14,6 +14,7 @@ import android.graphics.ColorMatrixColorFilter;
 import android.graphics.Paint;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.Toast;
@@ -106,6 +107,8 @@ public class MainActivity extends AppCompatActivity {
 
         paint.setColorFilter(new ColorMatrixColorFilter(imageMarix));
         canvas.drawBitmap(bm, 0, 0, paint);
+
+        Log.d("TAG","master");
 
         return bmp;
     }
