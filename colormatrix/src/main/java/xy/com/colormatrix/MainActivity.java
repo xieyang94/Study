@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
         paint.setColorFilter(new ColorMatrixColorFilter(imageMarix));
         canvas.drawBitmap(bm, 0, 0, paint);
 
-        Log.d("TAG","xy");
+        Log.d("TAG","master");
 
         return bmp;
     }
