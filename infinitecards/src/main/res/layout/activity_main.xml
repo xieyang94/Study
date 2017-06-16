@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2017. 用于测试配置版权信息
+  ~ 谢洋 版权所有
+  ~ XeYang. All Rights Reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:infiniteCard="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.bakerj.infinitecards.InfiniteCardView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        infiniteCard:animDuration="1000"
+        infiniteCard:cardRatio="1" />
+
+</LinearLayout>

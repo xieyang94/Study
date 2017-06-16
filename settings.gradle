@@ -1,1 +1,1 @@
-include ':app', ':cloud', ':expandablelistview', ':ui', ':ui2', ':ui3', ':ui4', ':ui5', ':2048', ':view', ':view2', ':view3', ':view4', ':view5', ':ui6', ':as', ':ui8', ':listview', ':view6', ':view7', ':colormatrix', ':wavekit'
+include ':app', ':cloud', ':expandablelistview', ':ui', ':ui2', ':ui3', ':ui4', ':ui5', ':2048', ':view', ':view2', ':view3', ':view4', ':view5', ':ui6', ':as', ':ui8', ':listview', ':view6', ':view7', ':colormatrix', ':wavekit', ':infinitecards', ':infinitecards2', ':vlayout'

@@ -14,6 +14,8 @@
             <option value="$PROJECT_DIR$/cloud" />
             <option value="$PROJECT_DIR$/colormatrix" />
             <option value="$PROJECT_DIR$/expandablelistview" />
+            <option value="$PROJECT_DIR$/infinitecards" />
+            <option value="$PROJECT_DIR$/infinitecards2" />
             <option value="$PROJECT_DIR$/listview" />
             <option value="$PROJECT_DIR$/ui" />
             <option value="$PROJECT_DIR$/ui2" />
@@ -29,6 +31,7 @@
             <option value="$PROJECT_DIR$/view5" />
             <option value="$PROJECT_DIR$/view6" />
             <option value="$PROJECT_DIR$/view7" />
+            <option value="$PROJECT_DIR$/vlayout" />
             <option value="$PROJECT_DIR$/wavekit" />
           </set>
         </option>
